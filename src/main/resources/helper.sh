@@ -55,6 +55,16 @@
 		# - Delete /topics/id "Deletes the topic"
 	# Course,
 
+# 2. # - Post /topics 		"Creates new topic"
+	# Go to Body -> raw provide the following json.
+		{"id": "Flask",
+		 "name": "Python",
+		 "description": "A Python Web Framework"}
+	# using Postman, go to Headers, and set the Content-Type be "application/json"
+	# Testing
+		# Get Request: localhost:8080/topicjson
+		# Post Request with the above body. localhost:8080/topicjson
+		# Rerun Get Request.
 
 
 
